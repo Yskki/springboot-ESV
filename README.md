@@ -9,7 +9,8 @@
 1. 这里是列表文本先将nginx-1.80-zip解压，静态页面资源都在里面了，双击nginx.exe文件（弹出一个小黑框（闪一下））代表静态资源启动成功。
 2. 运行列表文件中的exv.sql文件创建相应的数据库表。
 3. 部署Redis，修改application.yml里面的mysql地址、redis地址。
-4. 启动项目后，在浏览器访问：http://localhost:8081/shop-type/list,如果可以看到数据则证明运行没有问题。
+4. 启动项目后，在浏览器访问：http://localhost:8081/shop-type/list。
+5. 如果可以看到数据则证明运行没有问题。
 
 ##### 项目整体架构
 
